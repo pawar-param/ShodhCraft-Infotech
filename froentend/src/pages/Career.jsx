@@ -86,7 +86,7 @@ const Career = () => {
           style={{ animationDelay: "2s" }}
         ></div>
 
-        <div className="container mx-auto px-6 relative z-10">
+        <div className="container mx-auto max-w-7xl px-6 relative z-10">
           <div
             className={`text-center md:text-left transform transition-all duration-1000 translate-y-0 opacity-100`}
             id="hero"
@@ -129,13 +129,13 @@ const Career = () => {
           </div>
 
           {/* Optional Hero Illustration */}
-          <div className="hidden md:block absolute right-0 bottom-0 w-1/2 lg:w-2/5">
+          {/* <div className="hidden md:block absolute right-0 bottom-0 w-1/2 lg:w-2/5">
             <img
               src="/assets/career-illustration.png"
               alt="Career at ShodhCraft Infotech"
               className="w-full h-auto object-contain"
             />
-          </div>
+          </div> */}
         </div>
       </section>
 

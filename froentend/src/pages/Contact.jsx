@@ -181,7 +181,7 @@ const Contact = () => {
           style={{ animationDelay: "2s" }}
         ></div>
 
-        <div className="container mx-auto px-6 relative z-10">
+        <div className="container mx-auto max-w-7xl px-6 relative z-10">
           <div
             className={`text-center md:text-left transform transition-all duration-1000 ${
               isVisible.hero
@@ -229,13 +229,13 @@ const Contact = () => {
           </div>
 
           {/* Optional Hero Illustration */}
-          <div className="hidden md:block absolute right-0 bottom-0 w-1/2 lg:w-2/5">
+          {/* <div className="hidden md:block absolute right-0 bottom-0 w-1/2 lg:w-2/5">
             <img
               src="/assets/contact-illustration.png"
               alt="Contact Illustration"
               className="w-full h-auto object-contain"
             />
-          </div>
+          </div> */}
         </div>
       </section>
 

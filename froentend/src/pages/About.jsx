@@ -101,7 +101,7 @@ const About = () => {
           style={{ animationDelay: "2s" }}
         ></div>
 
-        <div className="container mx-auto px-6 relative z-10">
+        <div className="container max-w-7xl mx-auto px-6 relative z-10">
           <div
             className={`text-center md:text-left transform transition-all duration-1000 ${
               isVisible.hero
